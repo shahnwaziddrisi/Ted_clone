@@ -1,123 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TED:Ideas change everything</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav>
-        <div class="leftHolder">
-            <div class="logo">
-                <img src="TED-Logo-500x313.webp" alt="">
-            </div>
-            <div class="logotext">Ideas change everything</div>
-        </div>
-        <div class="rightHolder">
-            <span>Watch</span>
-            <span>Discover</span>
-            <span>Attend</span>
-            <span>Participate</span>
-            <span>About</span>
-            <span>Sign In</span>
-            <button>Membership</button>
+     <!-- Announcement Bar -->
+     <div class="announcement">
+        Head of TED Chris Anderson on TED’s exciting new chapter. <a href="#">Learn more »</a>
+    </div>
 
+    <!-- Navigation Bar -->
+    <header class="header1">
+        <div class="logo"><img src="TED-Logo-OneTrust-140-Height.png" alt=""><span>Ideas change everything</span></div>
+        <nav>
+            <a href="#">WATCH</a>
+            <a href="#">DISCOVER</a>
+            <a href="#">ATTEND</a>
+            <a href="#">PARTICIPATE</a>
+            <a href="#">ABOUT</a>
+            <a href="#" class="sign-in">SIGN IN</a>
+            <a href="#" class="membership">MEMBERSHIP</a>
+            <span class="search-icon">🔍</span>
+        </nav>
+        
+    </header>
+
+    <!-- Main Article Section -->
+    <main>
+        <div class="article">
+            <div class="text-content">
+                <p class="category">SCIENCE</p>
+                <h1 class="h1">Are we alone in the universe? We're close to finding out</h1>
+                <p class="description">
+                    Astrophysicist Lisa Kaltenegger explores the thrilling possibility of discovering life beyond Earth, 
+                    highlighting how cutting-edge technology like the James Webb Space Telescope lets us analyze distant 
+                    planets for signs of life in unprecedented detail. Could examining these "alien earths" uncover evidence 
+                    of new life forms and transform our understanding of the cosmos? We may be closer than ever to finding out.
+                </p>
+                <p class="author">Lisa Kaltenegger</p>
+                <p class="views">263K views · 8 days ago</p>
+            </div>
+            <div class="image-container">
+                <img src="article1.jpg" alt="Lisa Kaltenegger speaking at TED">
+                <span class="duration">10 MIN</span>
+            </div>
+        </div>
+        
+    </main>
+
+    
+
+    <div class="video-grid">
+        <!-- Video Card 1 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <img src="video1.jpg" alt="Solar Energy">
+                <span class="duration">8 MIN</span>
+            </div>
+            <p class="category">CLIMATE CHANGE</p>
+            <h3>Solar energy is even cheaper than you think</h3>
+            <p class="meta">Jenny Chase · 477K views · 23 days ago</p>
+        </div>
+        
+        <!-- Video Card 2 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <img src="video2.jpg" alt="Global Risks">
+                <span class="duration">44 MIN</span>
+            </div>
+            <p class="category">GLOBAL ISSUES</p>
+            <h3>The biggest global risks for 2025</h3>
+            <p class="meta">Ian Bremmer · 727K views · 28 days ago</p>
         </div>
 
-    </nav>
-    <div class="text_image">
-        <div class="paraholder">
-            <div class="redTextScience">
-                <p>SCIENCE</p>
+        <!-- Video Card 3 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <img src="video3.jpg" alt="Black History">
+                <span class="duration">15 MIN</span>
             </div>
-            <div class="mainHeading">
-                <p>Are we alone in the universe? We're close to finding out</p>
-            </div>
-            <div class="para">
-                <p>Astrophysicist Lisa Kaltenegger explores the thrilling possibility of discovering life beyond Earth,
-                    highlighting how cutting-edge technology like the James Webb Space Telescope lets us analyze distant
-                    planets for signs of life in unprecedented detail. Could examining these "alien earths" uncover
-                    evidence of new life forms and transform our understanding of the cosmos? We may be closer than ever
-                    to finding out.</p>
-            </div>
-            <div class="name-stats">
-                <p>Lisa Kaltenegger</p>
-                <p>263K views · 8 days ago</p>
-            </div>
+            <p class="category">CULTURE</p>
+            <h3>The mission to safeguard Black history in the US</h3>
+            <p class="meta">Julieanna L. Richardson · 1.6M views · 3 years ago</p>
         </div>
-        <div class="imageholder">
-            <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_144610/8d58ccef-9dd6-4ffc-a6d8-c45165cde68d/LisaKaltenegger_2024N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200?w=1200&q=80"
-                alt="">
+
+        <!-- Video Card 4 -->
+        <div class="video-card">
+            <div class="thumbnail">
+                <img src="AlexandrWang_2023-embed.jpg" alt="AI and War">
+                <span class="duration">9 MIN</span>
+            </div>
+            <p class="category">TECHNOLOGY</p>
+            <h3>War, AI and the new global arms race</h3>
+            <p class="meta">Alexandr Wang · 1.2M views · 2 years ago</p>
         </div>
     </div>
 
-    <hr>
-
-    <div class="cardholder">
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143076/eba5215f-bae7-4bac-911b-72f711573173/JennyChase_2024T-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200?w=1200&q=80"
-                    alt="">
-            </div>
-            <div class="nameBold">
-                <p>CLIMATE CHANGE</p>
-            </div>
-            <div class="cardpara">
-                <h3>Solar energy is even cheaper than you think</h3>
-            </div>
-            <div class="stats">
-                <p>Jenny Chase · 477K views · 23 days ago</p>
-            </div>
-        </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143986/409b3d60-58f8-4649-a2fe-c709f712f0d8/TEDExplains_Episode_Thumbnail_Risks-2025.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200?w=1200&q=80"
-                    alt="">
-            </div>
-            <div class="nameBold">
-                <p>GLOBAL ISSUES</p>
-            </div>
-            <div class="cardpara">
-                <h3>The biggest global risks for 2025</h3>
-            </div>
-            <div class="stats">
-                <p>Ian Bremmer · 727K views · 28 days ago</p>
-            </div>
-        </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/e828c8be-d054-4539-981f-5cb5b2fbbabc/JulieannaLRichardson_2021X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200?w=1200&q=80"
-                    alt="">
-            </div>
-            <div class="nameBold">
-                <p>CULTURE</p>
-            </div>
-            <div class="cardpara">
-                <h3>The mission to safeguard Black history in the US</h3>
-            </div>
-            <div class="stats">
-                <p>Julieanna L. Richardson · 1.6M views · 3 years ago</p>
-            </div>
-        </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9aea606e-f882-4c02-9c05-229867cb0b8c/AlexandrWang_2023-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200?w=1200&q=80"
-                    alt="">
-            </div>
-            <div class="nameBold">
-                <p>TECHNOLOGY</p>
-            </div>
-            <div class="cardpara">
-                <h3>War, AI and the new global arms race</h3>
-            </div>
-            <div class="stats">
-                <p>Alexandr Wang · 1.2M views · 2 years ago</p>
-            </div>
-        </div>
-    </div>
 
     <div class="discover-section">
         <h2>Discover</h2>
@@ -137,203 +118,613 @@
         </div>
     </div>
 
-    <hr>
-
     <section class="section1">
 
-        <div class="container">
-            <h2>RECOMMENDED FOR YOU</h2>
-            <div class="recommendations">
-                <div class="card">
-                    <img src="DeanFurness_2020S-embed.jpg" alt="Speaker 1">
-                    <div class="card-content">
-                        <div class="category">Sports</div>
-                        <div class="title">To overcome challenges, stop comparing yourself to others</div>
-                        <div class="description">Dean Furness shares how he discovered a powerful new mindset...</div>
-                    </div>
+    <div class="container1">
+        <h2>RECOMMENDED FOR YOU</h2>
+        <div class="recommendations">
+            <div class="card1">
+                <img src="DeanFurness_2020S-embed.jpg" alt="Speaker 1">
+                <div class="card1-content">
+                    <div class="category">Sports</div>
+                    <div class="title">To overcome challenges, stop comparing yourself to others</div>
+                    <div class="description">Dean Furness shares how he discovered a powerful new mindset...</div>
+                </div>
+            </div>
+            <div class="boder"></div>
+            <div class="card1">
+                <img src="EmilyGrubert_2022T-embed.jpg" alt="Speaker 2">
+                <div class="card1-content">
+                    <div class="category">Climate Change</div>
+                    <div class="title">What happens to gas stations when the world goes electric?</div>
+                    <div class="description">Emily Grubert explores the future of gas stations in a world shifting to electric...</div>
+                </div>
+            </div>
+            <div class="boder"></div>
+            <div class="card1">
+                <div class="card1-content">
+                    <div class="category">Environment</div>
+                    <div class="title">AI is dangerous, but not for the reasons you think</div>
+                    <div class="description">Sasha Luccioni · 1.94M views · 1 year ago</div>
                 </div>
                 <div class="boder"></div>
-                <div class="card">
-                    <img src="EmilyGrubert_2022T-embed.jpg" alt="Speaker 2">
-                    <div class="card-content">
-                        <div class="category">Climate Change</div>
-                        <div class="title">What happens to gas stations when the world goes electric?</div>
-                        <div class="description">Emily Grubert explores the future of gas stations in a world shifting
-                            to electric...</div>
-                    </div>
+                <div class="card1-content">
+                    <div class="category">Education</div>
+                    <div class="title">How friendship affects your brain</div>
+                    <div class="description">Shannon Odell · 1.47M views · 2 years ago</div>
                 </div>
                 <div class="boder"></div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="category">Environment</div>
-                        <div class="title">AI is dangerous, but not for the reasons you think</div>
-                        <div class="description">Sasha Luccioni · 1.94M views · 1 year ago</div>
-                    </div>
-                    <div class="boder"></div>
-                    <div class="card-content">
-                        <div class="category">Education</div>
-                        <div class="title">How friendship affects your brain</div>
-                        <div class="description">Shannon Odell · 1.47M views · 2 years ago</div>
-                    </div>
-                    <div class="boder"></div>
-                    <div class="card-content">
-                        <div class="category">BUSINESS</div>
-                        <div class="title">The cost of work stress -- and how to reduce it</div>
-                        <div class="description">Rob Cooke · 2.97M views · 5 years ago</div>
-                    </div>
+                <div class="card1-content">
+                    <div class="category">BUSINESS</div>
+                    <div class="title">The cost of work stress -- and how to reduce it</div>
+                    <div class="description">Rob Cooke · 2.97M views · 5 years ago</div>
                 </div>
+            </div>
+            
+        </div>
+    </div>
 
+    <div class="latest-section">
+        <div class="header2">
+            <h2>NEWEST FROM TED</h2>
+            <a href="#">Browse all Newest</a>
+        </div>
+        <div class="latest-container">
+            <div class="latest-card">
+                <img src="TEDCountdown_FoodForTheFuture_2024T-embed.jpg" alt="Food for the Future">
+                <div class="latest-content">
+                    <div class="tag">CLIMATE CHANGE</div>
+                    <div class="headline">TED Explores: Food for the Future</div>
+                    <div class="info">TED Countdown · 30 minutes ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="JonYoushaei_2024N-embed.jpg" alt="Perfectionism vs Procrastination">
+                <div class="latest-content">
+                    <div class="tag">ENTERTAINMENT</div>
+                    <div class="headline">Is perfectionism just procrastination in disguise?</div>
+                    <div class="info">Jon Youshaei · 34 minutes ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="gettingunstuck_textless.jpg" alt="Feeling Stuck and Motivation">
+                <div class="latest-content">
+                    <div class="tag">EDUCATION</div>
+                    <div class="headline">Why you feel stuck — and how to get motivated</div>
+                    <div class="info">Shannon Odell · 1 day ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="SuryaGanguli_2024S-embed.jpg" alt="AI vs Human Brain">
+                <div class="latest-content">
+                    <div class="tag">SCIENCE</div>
+                    <div class="headline">Can AI match the human brain?</div>
+                    <div class="info">Surya Ganguli · 1 day ago</div>
+                </div>
             </div>
         </div>
+    </div>
 
+    <div class="latest-section">
+        <div class="header2">
+            <h2>NEWEST FROM TED</h2>
+            <a href="#">Browse all Popular</a>
+        </div>
+        <div class="latest-container">
+            <div class="latest-card">
+                <img src="MollyGraham_2024N-embed.jpg" alt="Food for the Future">
+                <div class="latest-content">
+                    <div class="tag">BUSINESS</div>
+                    <div class="headline">Forget the corporate ladder — winners take risks</div>
+                    <div class="info">Molly Graham · 819K views · 2 months ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="RhainaCohen_2024N-embed.jpg" alt="Perfectionism vs Procrastination">
+                <div class="latest-content">
+                    <div class="tag">LOVE</div>
+                    <div class="headline">Why friendship can be just as meaningful as romantic love</div>
+                    <div class="info">Rhaina Cohen · 581K views · 3 months ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="SergiuPPasca_2022-embed.jpg" alt="Feeling Stuck and Motivation">
+                <div class="latest-content">
+                    <div class="tag">SCIENCE</div>
+                    <div class="headline">How we're reverse engineering the human brain in the lab</div>
+                    <div class="info">Sergiu P. Pasca · 3.8M views · 2 years ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="LeraBoroditsky_2017W-embed.jpg" alt="AI vs Human Brain">
+                <div class="latest-content">
+                    <div class="tag">SCIENCE</div>
+                    <div class="headline">How language shapes the way we think</div>
+                    <div class="info">Lera Boroditsky · 24M views · 7 years ago</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="membership-section">
+        <div class="membership-content">
+            <h2>Unlock your greatest potential</h2>
+            <p>Become a TED Member today to build a better future – and a better you. TED Members champion world-changing ideas and receive exclusive benefits including digital access to TED2025.</p>
+            <button class="join-button">Join today</button>
+        </div>
+        <div class="membership-image">
+            <img src="Z5qQVJbqstJ9-A8Q_Membership_Welcome_GIF_FINAL-1-.avif" alt="TED Members engaging in discussion">
+        </div>
+    </div>
+    
     </section>
 
-    <hr>
+    <div class="ai-section">
+        <h4>TRENDING IDEAS</h4>
+        <header class="ai-header">
+            <div class="ai-title"><h1 >AI</h1></div>
+            <div class="ai-subtitle"><p> Gain a deeper understanding of AI and its impact on our world — uncover its potential, and feel inspired to tackle this transformative field.</p>
+            <a href="#" class="ai-browse-link">Browse all AI</a></div>
+        </header>
+        <img src="MaxSills+_2023S-embed.jpg" alt="Speaker on stage" class="ai-main-image">
+        <main class="ai-content">
+            
+            <article class="ai-main-article">
+                <p class="category">TECHNOLOGY</p>
+                <h2 class="ai-main-title">How to persuade a computer</h2>
+                    <p class="ai-main-description">Artificial intelligence is shattering expectations of human predictability, motivation and speed in every part of society – including law. Lawyer Max Sills explores the practical challenges of negotiating with AI-powered systems as they become integrated into the world around us, offering a hopeful path to navigate these soon-to-be transformed...</p>
+                    <p class="ai-main-author">Max Sills • 1 year ago</p>
+                
+            </article>
+            <aside class="ai-side-articles">
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="AgnieszkaPilat_2024-embed.jpg" alt="Solar Energy">
+                        <span class="duration">8 MIN</span>
+                    </div>
+                    <p class="category">TECHNOLOGY</p>
+                    <h3>An AI artist's take on tech and legacy</h3>
+                    <p class="meta">Agnieszka Pilat • 1 year ago</p>
+                </div>
+                
+                <!-- Video Card 2 -->
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="RobertStrong_2023S-embed.jpg" alt="Global Risks">
+                        <span class="duration">3 MIN</span>
+                    </div>
+                    <p class="category">TECHNOLOGY</p>
+                    <h3>AI Jeopardy with a magic twist</h3>
+                    <p class="meta">Robert Strong • 1 year ago</p>
+                </div>
+                
+            </aside>
+           
+        </main>
+    </div>
 
-    <div class="cardholder">
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="TEDCountdown_FoodForTheFuture_2024T-embed.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>CLIMATE CHANGE</p>
-            </div>
-            <div class="cardpara">
-                <h3>TED Explores: Food for the Future</h3>
-            </div>
-            <div class="stats">
-                <p>TED Countdown · 3 hours ago</p>
+    <div class="ai-section">
+        <header class="ai-header">
+            <div class="ai-title"><h1 >TED-Ed</h1></div>
+            <div class="ai-subtitle"><p> TED-Ed's captivating video animations ignite curiosity and make complex topics irresistibly engaging. Come scratch your itch to learn.</p>
+            <a href="#" class="ai-browse-link">Browse all TED-Ed animations</a></div>
+        </header>
+        <img src="mooreslaw_textless.jpg" alt="Speaker on stage" class="ai-main-image">
+        <main class="ai-content">
+            
+            <article class="ai-main-article">
+                
+                <div class="ai-main-details">
+                    <div class="ai-main-details">
+                        <p class="category">SCIENCE</p>
+                        <h2 class="ai-main-title">Have we reached the limit of computer power?</h2>
+                        <p class="ai-main-description">Moore’s Law states that every 1 to 2 years the number of transistors that can fit on a given size computer chip will double. Thanks to this law, chips have gotten smaller, faster, more efficient, and cheaper.</p>
+                        <p class="ai-main-author">Sajan Saini and George Zaidan · 241K views · 13 days ago</p>
+                    </div>
+                </div>
+            </article>
+            
+            <aside class="ai-side-articles">
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="Cadmustextless.jpg" alt="Solar Energy">
+                        <span class="duration">4 MIN</span>
+                    </div>
+                    <p class="category">CULTURE</p>
+                    <h3>The fall of the House of Cadmus</h3>
+                    <p class="meta">Iseult Gillespie · 409K views · 7 months ago</p>
+                </div>
+                
+                <!-- Video Card 2 -->
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="AmazonDisappeared_textless.jpg" alt="Global Risks">
+                        <span class="duration">4 MIN</span>
+                    </div>
+                    <p class="category">CLIMATE CHANGE</p>
+                    <h3>What would happen if the Amazon Rainforest disappeared?</h3>
+                    <p class="meta">Anna Rothschild · 150K views · 8 days ago</p>
+                </div>
+                
+            </aside>
+        </main>
+    </div>
+
+    <div class="ai-section">
+       
+        <header class="ai-header">
+            <div class="ai-title"><h1 >Psychology</h1></div>
+            <div class="ai-subtitle"><p> Grab a front-row seat to unravelling the mysteries of the human mind and embark on a journey of self-discovery.</p>
+            <a href="#" class="ai-browse-link">Browse all Psychology</a></div>
+        </header>
+        <img src="RiccardoLoconte_2024S-embed.jpg" alt="Speaker on stage" class="ai-main-image">
+        <main class="ai-content">
+            
+            <article class="ai-main-article">
+                
+                <div class="ai-main-details">
+                    <p class="category">TECHNOLOGY</p>
+                    <h2 class="ai-main-title">What if AI could spot your lies?</h2>
+                    <p class="ai-main-description">Humans are terrible at detecting lies, says psychologist Riccardo Loconte ... but what if we had an AI-powered tool to help? He introduces his team’s work successfully training an AI to recognize falsehoods in certain contexts, laying the groundwork for a world where everything from national security to social media is a little bit safer — and a bit more...</p>
+                    <p class="ai-main-author">Riccardo Loconte · 9 days ago</p>
+                </div>
+            </article>
+            
+            <aside class="ai-side-articles">
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="betterfriend_textless.jpg" alt="Solar Energy">
+                        <span class="duration">8 MIN</span>
+                    </div>
+                    <p class="category">EDUCATION</p>
+                    <h3>How some friendships last — and others don’t</h3>
+                    <p class="meta">Iseult Gillespie · 789K views · 2 months ago</p>
+                </div>
+                
+                <!-- Video Card 2 -->
+                <div class="video-card1">
+                    <div class="thumbnail1">
+                        <img src="angertextless.jpg" alt="Global Risks">
+                        <span class="duration">3 MIN</span>
+                    </div>
+                    <p class="category">EDUCATION</p>
+                    <h3>When is anger justified? A philosophical inquiry</h3>
+                    <p class="meta">Delaney Thull · 326K views · 11 months ago</p>
+                </div>
+                
+            </aside>
+        </main>
+    </div>
+
+    <!-- Trending TEDx Ideas Section -->
+<!-- Trending TEDx Ideas Section -->
+<section class="trending-tedx-section">
+    <h2 class="trending-heading">TRENDING TEDX IDEAS</h2>
+
+    <!-- Idea Cards Container -->
+    <div class="ideas-grid">
+        <!-- Card 1 -->
+        <div class="trending-card">
+            <span class="card-number">1</span>
+            <div class="card-content">
+                <p class="card-tag">SCIENCE</p>
+                <h3 class="card-headline">The high-wire act of unlocking clean energy</h3>
+                <p class="card-details">Jason Huang · 23K views · 5 days ago</p>
             </div>
         </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="JonYoushaei_2024N-embed.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>entertainment</p>
-            </div>
-            <div class="cardpara">
-                <h3>Is perfectionism just procrastination in disguise?</h3>
-            </div>
-            <div class="stats">
-                <p>Jon Youshaei · 3 hours ago</p>
+
+        <!-- Card 2 -->
+        <div class="trending-card">
+            <span class="card-number">2</span>
+            <div class="card-content">
+                <p class="card-tag">BUSINESS</p>
+                <h3 class="card-headline">How to turn setbacks into success</h3>
+                <p class="card-details">Amy Shoemhal · 320K views · 20 days ago</p>
             </div>
         </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="gettingunstuck_textless.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>EDUCATION</p>
-            </div>
-            <div class="cardpara">
-                <h3>Why you feel stuck — and how to get motivated</h3>
-            </div>
-            <div class="stats">
-                <p>Shannon Odell · 1 day ago</p>
+
+        <!-- Card 3 -->
+        <div class="trending-card">
+            <span class="card-number">3</span>
+            <div class="card-content">
+                <p class="card-tag">MUSIC</p>
+                <h3 class="card-headline">How I imitate nature's voices</h3>
+                <p class="card-details">Snow Raven · 516K views · 2 months ago</p>
             </div>
         </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="SuryaGanguli_2024S-embed.jpg" alt="">
+
+        <!-- Card 4 -->
+        <div class="trending-card">
+            <span class="card-number">4</span>
+            <div class="card-content">
+                <p class="card-tag">MEDIA</p>
+                <h3 class="card-headline">The secret to telling a great story — in less than 60 seconds</h3>
+                <p class="card-details">Jenny Hoyos · 302K views · 6 days ago</p>
             </div>
-            <div class="nameBold">
-                <p>SCIENCE</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="trending-card">
+            <span class="card-number">5</span>
+            <div class="card-content">
+                <p class="card-tag">NATURE</p>
+                <h3 class="card-headline">How to make big decisions in challenging circumstances</h3>
+                <p class="card-details">Jonathan Reimer · 377K views · 2 months ago</p>
             </div>
-            <div class="cardpara">
-                <h3>Can AI match the human brain?</h3>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="trending-card">
+            <span class="card-number">6</span>
+            <div class="card-content">
+                <p class="card-tag">CULTURE</p>
+                <h3 class="card-headline">How your childhood toys tell your life story</h3>
+                <p class="card-details">Chris Byrne · 618K views · 2 months ago</p>
             </div>
-            <div class="stats">
-                <p>Surya Ganguli · 1 day ago</p>
+        </div>
+    </div>
+</section>
+
+<!-- About TED Section -->
+<section class="about-sec">
+    <div class="about-ted-sectiont">
+        <h1 class="ted-slogan">Ideas change everything.</h1>
+    <p class="ted-description">
+        TED is a nonprofit that shares educational and inspiring ideas with billions of people worldwide to catalyze change across individuals, communities and ultimately, humanity.
+    </p>
+    <a href="#" class="learn-more-link">Learn more about TED</a>
+    </div>
+    <div class="about-img"><img src="ZoaudR5LeNNTwy-6_Imagearea.avif" alt=""></div>
+</section>
+
+<!-- Climate Action Section -->
+<section class="climate-action-section">
+    <div class="left">
+        <div class="climate-action-title1"><h2 class="climate-action-title">COUNTDOWN: TAKE ACTION ON CLIMATE CHANGE</h2>
+    
+            <!-- Browse Link -->
+            <a href="#" class="browse-sustainability-link">Browse all Sustainability</a>
+            </div>
+            <!-- Climate Solution Card -->
+            <div class="climate-card">
+                <div class="climate-card-content">
+                    <p class="climate-tag">CLIMATE CHANGE</p>
+                    <h3 class="climate-card-title">A playbook for financing climate solutions</h3>
+                    <p class="climate-meta">Nili Gilbert and David Blood · 646K views · 1 year ago</p>
+                </div>
+                <img src="NiliGilbertandDavidBlood_2023T-embed.jpg" alt="Climate Solutions" class="climate-card-image">
+            </div>
+        
+            <!-- Food System Card -->
+            <div class="climate-card">
+                <div class="climate-card-content">
+                    <p class="climate-tag">CLIMATE CHANGE</p>
+                    <h3 class="climate-card-title">A food system that fights climate change — instead of causing it</h3>
+                    <p class="climate-meta">Gonzalo Muñoz · 442K views · 4 months ago</p>
+                </div>
+                <img src="GonzaloMunoz_2024T-embed.jpg" alt="Food System" class="climate-card-image">
+            </div>
+            <div class="climate-card">
+                <div class="climate-card-content">
+                    <p class="climate-tag">CLIMATE CHANGE</p>
+                    <h3 class="climate-card-title">How to supercharge renewables and energize the world</h3>
+                    <p class="climate-meta">Rebecca Collyer · 724K views · 1 year ago</p>
+                </div>
+                <img src="RebeccaCollyer_2023T-embed.jpg" alt="Food System" class="climate-card-image">
+            </div>
+    </div>
+    <div class="ads"> <h3>TED is supported by ads and partners</h3> </div>
+</section>
+    
+    <!-- footer -->
+    
+    <div class="latest-section">
+        <div class="header2">
+            <h2>Popular podcast episodes</h2>
+            <a href="#">Browse all Podcasts</a>
+        </div>
+        <div class="latest-container">
+            <div class="latest-card">
+                <img src="RTA_TED.com_thumbnail_2880x1620.jpg" alt="Food for the Future">
+                <div class="latest-content">
+                    <div class="tag">technology</div>
+                    <div class="headline">Sam Altman on the future of AI and humanity</div>
+                    <div class="info">ReThinking with Adam Grant · 248K views · 13 days ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="Am_I_Normal_Podcast_Generic_2880x1620.jpeg" alt="Perfectionism vs Procrastination">
+                <div class="latest-content">
+                    <div class="tag">LOVE</div>
+                    <div class="headline">How many friends do I need?</div>
+                    <div class="info">Am I Normal? with Mona Chalabi · 428K views · 2 months ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="TTD_Summer-Book-Club_YT-thumbnail_1280x720_high-res.jpg" alt="Feeling Stuck and Motivation">
+                <div class="latest-content">
+                    <div class="tag">technology</div>
+                    <div class="headline">TED Talks Daily Book Club: The Anxious Generation</div>
+                    <div class="info">Jonathan Haidt · 490K views · 5 months ago</div>
+                </div>
+            </div>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="TAC-HowToBeABetterHuman.jpg" alt="AI vs Human Brain">
+                <div class="latest-content">
+                    <div class="tag">performance</div>
+                    <div class="headline">How to develop the habits you want – and get rid of the ones you don’t (w/ James Clear)</div>
+                    <div class="info">How to Be a Better Human · 524K views · 6 months ago</div>
+                </div>
             </div>
         </div>
     </div>
 
-    <hr>
-
-    <div class="cardholder">
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="video1.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>BUSINESS</p>
-            </div>
-            <div class="cardpara">
-                <h3>Forget the corporate ladder — winners take risks</h3>
-            </div>
-            <div class="stats">
-                <p>Molly Graham · 819K views · 2 months ago</p>
-            </div>
+    <div class="latest-section">
+        <div class="header2">
+            <h2>Multilingual TED Talks, adapted by Panjaya AI</h2>
+           
         </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="RhainaCohen_2024N-embed.jpg" alt="">
+        <div class="latest-container">
+            <div class="latest-card">
+                <img src="LeraBoroditsky_2017W-embed.jpg" alt="Food for the Future">
+                <div class="latest-content">
+                    <div class="tag">SCIENCE</div>
+                    <div class="headline">How language shapes the way we think</div>
+                    <div class="info">Lera Boroditsky · 24M views · 7 years ago</div>
+                </div>
             </div>
-            <div class="nameBold">
-                <p>LOVE</p>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="GuyWinch_2017-embed.jpg" alt="Perfectionism vs Procrastination">
+                <div class="latest-content">
+                    <div class="tag">SOCIAL CHANGE</div>
+                    <div class="headline">How to fix a broken heart</div>
+                    <div class="info">Guy Winch · 17M views · 7 years ago</div>
+                </div>
             </div>
-            <div class="cardpara">
-                <h3>Why friendship can be just as meaningful as romantic love</h3>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="LisaBu_2013-embed.jpg" alt="Feeling Stuck and Motivation">
+                <div class="latest-content">
+                    <div class="tag">CULTURE</div>
+                    <div class="headline">How books can open your mind</div>
+                    <div class="info">Lisa Bu · 6.8M views · 12 years ago</div>
+                </div>
             </div>
-            <div class="stats">
-                <p>Rhaina Cohen · 581K views · 3 months ago</p>
-            </div>
-        </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="SergiuPPasca_2022-embed.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>SCIENCE</p>
-            </div>
-            <div class="cardpara">
-                <h3>How we're reverse engineering the human brain in the lab</h3>
-            </div>
-            <div class="stats">
-                <p>Sergiu P. Pasca · 3.8M views · 2 years ago</p>
-            </div>
-        </div>
-        <div class="cardmaker">
-            <div class="cardimage">
-                <img src="LeraBoroditsky_2017W-embed.jpg" alt="">
-            </div>
-            <div class="nameBold">
-                <p>SCIENCE</p>
-            </div>
-            <div class="cardpara">
-                <h3>How language shapes the way we think</h3>
-            </div>
-            <div class="stats">
-                <p>Lera Boroditsky · 24M views · 7 years ago</p>
+            <div class="latest-divider"></div>
+            <div class="latest-card">
+                <img src="AngelicaDass_2016-embed.jpg" alt="AI vs Human Brain">
+                <div class="latest-content">
+                    <div class="tag">CULTURE</div>
+                    <div class="headline">The beauty of human skin in every color</div>
+                    <div class="info">Angélica Dass · 3M views · 9 years ago</div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="text_image2">
-        <div class="paraholder2">
-            <div class="mainHeading2">
-                <p>Unlock your greatest potential</p>
+    
+        <div class="container">
+            <div class="newsletters">
+                <div class="card">
+                    <p class="frequency">WEEKLY</p>
+                    <div class="image blue">TED Recommends</div>
+                    <h3>TED Recommends</h3>
+                    <p>TED, tailored for you</p>
+                    <button class="select-btn">Select <span>+</span></button>
+                </div>
+    
+                <div class="card">
+                    <p class="frequency">DAILY</p>
+                    <div class="image red">TED TALKS DAILY</div>
+                    <h3>TED Talks Daily</h3>
+                    <p>The latest from TED</p>
+                    <button class="select-btn">Select <span>+</span></button>
+                </div>
+    
+                <div class="card">
+                    <p class="frequency">WEEKLY</p>
+                    <div class="image purple">TED-Ed</div>
+                    <h3>TED-Ed</h3>
+                    <p>Learn something new</p>
+                    <button class="select-btn">Select <span>+</span></button>
+                </div>
+    
+                <div class="card">
+                    <p class="frequency">BIWEEKLY</p>
+                    <div class="image gray">TED Talks TECH</div>
+                    <h3>TED Tech</h3>
+                    <p>Tech news, talks + more</p>
+                    <button class="select-btn">Select <span>+</span></button>
+                </div>
             </div>
-            <div class="para2">
-                <p>Become a TED Member today to build a better future – and a better you. TED Members champion
-                    world-changing ideas and receive exclusive benefits including digital access to TED2025.</p>
-            </div>
-            <div class="name-stats2">
-                <button>JOIN TODAY</button>
+    
+            <div class="subscribe-section">
+                <h2>Newsletters</h2>
+                <p>Get talks sent to your inbox based on your interests.</p>
+                <input type="email" placeholder="What is your email?" />
+                <button class="subscribe-btn">Subscribe now</button>
+                <p class="policy">By subscribing, you accept the terms of <a href="#">TED’s Privacy Policy</a></p>
             </div>
         </div>
-        <div class="imageholder2">
-            <img src="vidoetype.avif" alt="">
-        </div>
-    </div>
-
-    <hr>
-    <hr>
-    <hr>
-
-
-
+    
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h2>TED</h2>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">TEDx</a></li>
+                        <li><a href="#">TED Fellows</a></li>
+                        <li><a href="#">TED Ed</a></li>
+                        <li><a href="#">TED Translators</a></li>
+                        <li><a href="#">TED Institute</a></li>
+                        <li><a href="#">The Audacious Project</a></li>
+                        <li><a href="#">TED@Work</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">TED Blog</a></li>
+                        <li><a href="#">More ways to get TED</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Our Community</h3>
+                    <ul>
+                        <li><a href="#">TED Speakers</a></li>
+                        <li><a href="#">TED Fellows</a></li>
+                        <li><a href="#">TED Translators</a></li>
+                        <li><a href="#">TEDx Organizers</a></li>
+                        <li><a href="#">TED Community</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Newsletters</h3>
+                    <p>📩 <b>Get the latest talks</b></p>
+                    <p>Get a daily email featuring the latest talks, plus a quick mix of trending content.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="What's your email?">
+                        <button>Subscribe</button>
+                    </div>
+                    <p class="policy">By subscribing, you understand and agree that we will store, process and manage your personal information according to our <a href="#">Privacy Policy</a>.</p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Become a TED Member</h3>
+                    <p>TED Members help billions of people worldwide access inspiring ideas. Plus, they get exclusive benefits like invite-only events with speakers. Join today for a brighter future – and a better you.</p>
+                </div>
+        
+                <div class="footer-section social">
+                    <h3>Follow TED</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="./assets/linkedin.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="./assets/twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="./assets/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="./assets/youtube.png" alt="YouTube"></a>
+                        <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
+                    </div>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Download the TED App</h3>
+                    <div class="app-buttons">
+                        <a href="#"><img src="google-play.png" alt="Google Play"></a>
+                        <a href="#"><img src="app-store.png" alt="App Store"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
 </body>
-
 </html>
